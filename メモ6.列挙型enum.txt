@@ -1,0 +1,17 @@
+列挙型　(ユーザー定義型)
+
+列挙型の宣言にはenumを使う
+列挙型で宣言される変数はメンバと呼ばれる
+switch文で便利
+
+enum 列挙型名 {識別子1, 識別子2, ...};
+
+例)
+
+enum Week{sun, mon, tue, wed, thu, fri, sat};
+
+int main(){
+	Week w;      //Week型の変数w
+	w = sun;     //wに値sunを代入
+        ...
+}

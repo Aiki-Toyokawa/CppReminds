@@ -1,0 +1,11 @@
+signed 　符号あり　正負
+unsigned 符号なし　正
+
+範囲は同じ
+signed   char　　　-128～127
+unsigned char　　　 0～255
+
+0000
+4bitの最初を符号で表すため値が違う
+
+要注意)unsignedで修飾した変数に負数を格納できるsigned変数を代入した場合、予期せぬ動作となるため、気を付ける

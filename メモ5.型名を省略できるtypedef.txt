@@ -1,0 +1,19 @@
+ユーザー定義型　新しい型を作成できる
+
+typedf 型名　識別子;
+
+
+型名が識別子で置き換えることができて省略できる
+
+例)
+typedf unsigned long int Count;
+
+unsigned long int →　Count とできる
+
+↓
+
+unsigned long int num = 1;
+
+Count num = 1;
+
+の2つは同義
